@@ -28,7 +28,6 @@ async function getWeatherData() {
                     <li>Humidity ${humidity}</li>
                 </ul`;
 
-            document.getElementById("zipcode").value = "";
         } catch (error) {
             console.log(error);
         }
